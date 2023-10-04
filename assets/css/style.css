@@ -99,7 +99,6 @@ using HTML tags*/
     margin-left: 20px;
 }
 
-
 .benefits 
 {
     margin-right: 20px;
@@ -112,8 +111,11 @@ using HTML tags*/
     background-color: #2589bd;
 }
 
+/* the img tag means that images within the benefit-lead class will inherit 
+the display, margin, and max-width attributes */
+
 /* This begins a new css class without any HTML tags */
-.benefit-lead 
+.benefit
 {
     margin-bottom: 32px;
     color: #ffffff;
@@ -121,7 +123,7 @@ using HTML tags*/
 
 /* the img tag means that images within the benefit-lead class will inherit 
 the display, margin, and max-width attributes */
-.benefit-lead img 
+.benefit img 
 {
     display: block;
     margin: 10px auto;
@@ -130,55 +132,7 @@ the display, margin, and max-width attributes */
 
 /* the h3 tag means that images within the benefit-lead class will inherit 
 the margin-bottom and text-align attributes*/
-.benefit-lead h3 
-{
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* This begins a new css class without any HTML tags */
-.benefit-brand 
-{
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* the img tag means that images within the benefit-lead class will inherit 
-the display, margin, and max-width attributes */
-.benefit-brand img 
-{
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* the h3 tag means that images within the benefit-lead class will inherit 
-the margin-bottom and text-align attributes*/
-.benefit-brand h3 
-{
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* This begins a new css class without any HTML tags */
-.benefit-cost 
-{
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* the img tag means that images within the benefit-lead class will inherit 
-the display, margin, and max-width attributes */
-.benefit-cost img 
-{
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* the h3 tag means that images within the benefit-cost class will inherit 
-the margin-bottom and text-align attributes*/
-.benefit-cost h3 
+.benefit h3 
 {
     margin-bottom: 10px;
     text-align: center;
