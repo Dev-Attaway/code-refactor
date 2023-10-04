@@ -1,0 +1,280 @@
+
+/* The universal class will pass attributes to all classes and will remove any established options
+already in place. These pre-established preferences for webpages are from the web browser used by 
+individual users */
+* 
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body 
+{
+    background-color: #d9dcd6;
+}
+
+.header 
+{
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 
+{
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo
+{
+    color: #d9dcd6;
+}
+
+.header div 
+{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Moved list-style-type: from ".header div ul" to ".header div ul li".
+removed ".header div ul" since ".header div ul li" now irrelevant in function*/
+
+.header div ul li 
+{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a 
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p 
+{
+    font-size: 16px;
+}
+
+/* The classes hero, arrange-left, arrange-right, content, and benefits are created without 
+using HTML tags*/
+
+.hero 
+{
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* renamed float-left, float-right to arrange-left and arrange-right */
+.arrange-left 
+{
+    float: left;
+    margin-right: 25px;
+}
+
+
+.arrange-right 
+{
+    float: right;
+    margin-left: 25px;
+}
+
+
+.content 
+{
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.benefits 
+{
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* This begins a new css class without any HTML tags */
+.benefit-lead 
+{
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* the img tag means that images within the benefit-lead class will inherit 
+the display, margin, and max-width attributes */
+.benefit-lead img 
+{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* the h3 tag means that images within the benefit-lead class will inherit 
+the margin-bottom and text-align attributes*/
+.benefit-lead h3 
+{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* This begins a new css class without any HTML tags */
+.benefit-brand 
+{
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* the img tag means that images within the benefit-lead class will inherit 
+the display, margin, and max-width attributes */
+.benefit-brand img 
+{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* the h3 tag means that images within the benefit-lead class will inherit 
+the margin-bottom and text-align attributes*/
+.benefit-brand h3 
+{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* This begins a new css class without any HTML tags */
+.benefit-cost 
+{
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* the img tag means that images within the benefit-lead class will inherit 
+the display, margin, and max-width attributes */
+.benefit-cost img 
+{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* the h3 tag means that images within the benefit-cost class will inherit 
+the margin-bottom and text-align attributes*/
+.benefit-cost h3 
+{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* This begins a new css class without any HTML tags */
+.search-engine-optimization 
+{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* the img tag means that images within the online-reputation-management class will inherit 
+the  max-height attribute*/
+.search-engine-optimization img 
+{
+    max-height: 200px;
+}
+
+/* the h2 tag means that text within the search-engine-optimization class within the h2 tag: will inherit 
+the margin-bottom and font-size attributes*/
+.search-engine-optimization h2 
+{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* This begins a new css class without any HTML tags */
+.online-reputation-management 
+{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* the img tag means that images within the online-reputation-management class will inherit 
+the  max-height attribute*/
+.online-reputation-management img 
+{
+    max-height: 200px;
+}
+
+/* the h2 tag means that text within the online-reputation-managemen class within the h2 tag: will inherit 
+the margin-bottom and font-size attributes*/
+.online-reputation-management h2 
+{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* This begins a new css class without any HTML tags */
+.social-media-marketing 
+{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* the img tag means that images within the social-media-marketing class will inherit 
+the  max-height attribute*/
+.social-media-marketing img 
+{
+    max-height: 200px;
+}
+
+/* the h2 tag means that text within the social-media-marketing class within the h2 tag: will inherit 
+the margin-bottom and font-size attributes*/
+.social-media-marketing h2 
+{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* the footer HTML tag will take on the attributes within the class selector ".footer" */
+.footer 
+{
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
+}
+
+/* the h2 tag means that text within the footer class within the h2 tag: will inherit 
+the margin-bottom and font-size attributes*/
+.footer h2
+{
+    font-size: 20px;
+}
