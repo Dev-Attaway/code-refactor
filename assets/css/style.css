@@ -185,7 +185,7 @@ the margin-bottom and text-align attributes*/
 }
 
 /* This begins a new css class without any HTML tags */
-.search-engine-optimization 
+.branding 
 {
     margin-bottom: 20px;
     padding: 50px;
@@ -197,66 +197,14 @@ the margin-bottom and text-align attributes*/
 
 /* the img tag means that images within the online-reputation-management class will inherit 
 the  max-height attribute*/
-.search-engine-optimization img 
+.branding img 
 {
     max-height: 200px;
 }
 
 /* the h2 tag means that text within the search-engine-optimization class within the h2 tag: will inherit 
 the margin-bottom and font-size attributes*/
-.search-engine-optimization h2 
-{
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* This begins a new css class without any HTML tags */
-.online-reputation-management 
-{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* the img tag means that images within the online-reputation-management class will inherit 
-the  max-height attribute*/
-.online-reputation-management img 
-{
-    max-height: 200px;
-}
-
-/* the h2 tag means that text within the online-reputation-managemen class within the h2 tag: will inherit 
-the margin-bottom and font-size attributes*/
-.online-reputation-management h2 
-{
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* This begins a new css class without any HTML tags */
-.social-media-marketing 
-{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* the img tag means that images within the social-media-marketing class will inherit 
-the  max-height attribute*/
-.social-media-marketing img 
-{
-    max-height: 200px;
-}
-
-/* the h2 tag means that text within the social-media-marketing class within the h2 tag: will inherit 
-the margin-bottom and font-size attributes*/
-.social-media-marketing h2 
+.branding h2 
 {
     margin-bottom: 20px;
     font-size: 36px;
