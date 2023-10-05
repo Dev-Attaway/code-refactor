@@ -1,15 +1,16 @@
 # code-refactor
 
 ## Description
-This project is intended to demostrate that 2 different source codes can produce the same output. This is achieved through changing source code provided in 02-Challenge from Bootcamp.
+This project is intended to demonstrate that 2 different source codes can produce the same output. This is achieved through changing the source code provided in 02-Challenge from Bootcamp.
 
 # Completed Website page:
 ![](./assets/images/image-1.png)
 
 ## Installation
 
-Files are availabile for download through Git Hub
-The webpage cabe viewed through this link: https://dev-attaway.github.io/code-refactor/
+Files are available for download through Git Hub
+The webpage can be viewed through this link:
+https://dev-attaway.github.io/code-refactor/
 
 ## Usage
 
