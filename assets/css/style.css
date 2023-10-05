@@ -34,7 +34,7 @@ body
     color: #d9dcd6;
 }
 
-.header div 
+.header section
 {
     padding-top: 15px;
     margin-right: 20px;
@@ -43,10 +43,10 @@ body
     font-size: 20px;
 }
 
-/* Moved list-style-type: from ".header div ul" to ".header div ul li".
-removed ".header div ul" since ".header div ul li" now irrelevant in function*/
+/* Moved list-style-type: from ".header section ul" to ".header section ul li".
+removed ".header section ul" since ".header section ul li" now irrelevant in function*/
 
-.header div ul li 
+.header section ul li 
 {
     list-style-type: none;
     display: inline-block;
@@ -84,7 +84,6 @@ using HTML tags*/
     margin-right: 25px;
 }
 
-
 .arrange-right 
 {
     float: right;
@@ -111,11 +110,8 @@ using HTML tags*/
     background-color: #2589bd;
 }
 
-/* the img tag means that images within the benefit-lead class will inherit 
-the display, margin, and max-width attributes */
-
 /* This begins a new css class without any HTML tags */
-.benefit
+.benefit-style
 {
     margin-bottom: 32px;
     color: #ffffff;
@@ -123,7 +119,7 @@ the display, margin, and max-width attributes */
 
 /* the img tag means that images within the benefit-lead class will inherit 
 the display, margin, and max-width attributes */
-.benefit img 
+.benefit-style img 
 {
     display: block;
     margin: 10px auto;
@@ -132,7 +128,7 @@ the display, margin, and max-width attributes */
 
 /* the h3 tag means that images within the benefit-lead class will inherit 
 the margin-bottom and text-align attributes*/
-.benefit h3 
+.benefit-style h3 
 {
     margin-bottom: 10px;
     text-align: center;
