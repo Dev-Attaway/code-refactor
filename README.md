@@ -8,13 +8,14 @@ This project is intended to demonstrate that 2 different source codes can produc
 
 ## Installation
 
-Files are available for download through Git Hub
-The webpage can be viewed through this link:
-https://dev-attaway.github.io/code-refactor/
+Files are available for download through Git Hub:
+https://github.com/Dev-Attaway/code-refactor
+
+
 
 ## Usage
 
- Intended as a study model for CSS and HTML and how HTML references CSS
+Intended as a study model for CSS and HTML and how HTML references CSS
 
 ## Credits
 
@@ -23,6 +24,10 @@ https://github.com/Dev-Attaway
 
 Source code:
 https://git.bootcampcontent.com/Michigan-State-University/MSU-VIRT-FSF-PT-09-2023-U-LOLC
+
+
+The webpage can be viewed through this link:
+https://dev-attaway.github.io/code-refactor/
 
 ## License
 
