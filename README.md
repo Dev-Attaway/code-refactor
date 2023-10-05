@@ -4,12 +4,12 @@
 This project is intended to demostrate that 2 different source codes can produce the same output. This is achieved through changing source code provided in 02-Challenge from Bootcamp.
 
 # Completed Website page:
-![Alt text](image-1.png)
+![](./assets/images/image-1.png)
 
 ## Installation
 
 Files are availabile for download through Git Hub
-The webpage cabe viewed through this link:https://dev-attaway.github.io/code-refactor/
+The webpage cabe viewed through this link: https://dev-attaway.github.io/code-refactor/
 
 ## Usage
 
@@ -17,7 +17,11 @@ The webpage cabe viewed through this link:https://dev-attaway.github.io/code-ref
 
 ## Credits
 
-N/A
+Developer:
+https://github.com/Dev-Attaway
+
+Source code:
+https://git.bootcampcontent.com/Michigan-State-University/MSU-VIRT-FSF-PT-09-2023-U-LOLC
 
 ## License
 
